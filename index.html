@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Electron Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="calculator">
+        <input id="result" type="text" disabled />
+        <div class="buttons-grid">
+          <button class="button" value="(">(</button>
+          <button class="button" value=")">)</button>
+          <button class="button" value="C">C</button>
+          <button class="button operator" value="/">÷</button>
+          <button class="button" value="7">7</button>
+          <button class="button" value="8">8</button>
+          <button class="button" value="9">9</button>
+          <button class="button operator" value="*">×</button>
+          <button class="button" value="4">4</button>
+          <button class="button" value="5">5</button>
+          <button class="button" value="6">6</button>
+          <button class="button operator" value="-">-</button>
+          <button class="button" value="1">1</button>
+          <button class="button" value="2">2</button>
+          <button class="button" value="3">3</button>
+          <button class="button operator" value="+">+</button>
+          <button class="button" value="0">0</button>
+          <button class="button" value=".">.</button>
+          <button class="button equals" value="=">=</button>
+        </div>
+    </div>
+    <script src="./dist/renderer.js"></script>
+  </body>
+</html>
